@@ -1,0 +1,25 @@
+.startPage {
+    height: 500px;
+    background-color: #f44336;
+    text-align: center;
+}
+
+h2{
+    padding-top: 5rem;
+    font-size: 4rem;
+    color: #fff;
+}
+
+.btn {
+    background: black;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
+    padding: 0.7rem 2rem;
+    border: none;
+    margin-top: 2rem;
+}

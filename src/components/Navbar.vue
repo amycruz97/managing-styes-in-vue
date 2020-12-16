@@ -19,10 +19,11 @@ export default {
 
 <style scoped>
 .navbar{
-    width: 100%;
     background: #f44336;
-    padding: 1rem ;
+    padding: 1rem;
     font-size: 1.5rem;
+    border-bottom: 1px solid white;
+    
     
 
 }
