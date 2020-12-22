@@ -2,19 +2,22 @@
   <div>
     <Navbar/>
     <Body/>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Navbar from './components/Navbar.vue'
 import Body from './components/Body.vue'
+import Footer from './components/Footer.vue'
 
 
 export default {
   name: 'App',
   components: {
     Navbar,
-    Body
+    Body,
+    Footer,
 
     
   }
@@ -22,17 +25,14 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  
-  
-  
-}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: #fff;
 }
 </style>

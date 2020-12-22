@@ -12,14 +12,13 @@
 
 
 <script>
-import '@/assets/css/startpage.css';
+
 export default {
     name: 'Body'
 }
 </script>
 
-
-<style>
-
+<style scoped src="../assets/css/startpage.css">
+/* @import '../assets/css/startpage.css'; */
 
 </style>
